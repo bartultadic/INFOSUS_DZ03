@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bartu\\source\\repos\\Kladionica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\views\\oklada\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\views\\oklada\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\controllers\\okladacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\controllers\\okladacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\models\\oklada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\models\\oklada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\views\\oklada\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\views\\oklada\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\views\\korisnik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\views\\korisnik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\models\\utakmica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\models\\utakmica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|c:\\users\\bartu\\source\\repos\\kladionica\\kladionica\\views\\oklada\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B443FCA-83F1-4874-821F-E2F4E594D232}|Kladionica\\Kladionica.csproj|solutionrelative:kladionica\\views\\oklada\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kladionica\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Kladionica\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T20:07:43.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utakmica.cs",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Models\\Utakmica.cs",
+              "RelativeDocumentMoniker": "Kladionica\\Models\\Utakmica.cs",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Models\\Utakmica.cs",
+              "RelativeToolTip": "Kladionica\\Models\\Utakmica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T11:51:11.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Kladionica\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Models\\Korisnik.cs",
+              "RelativeToolTip": "Kladionica\\Models\\Korisnik.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T11:48:32.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Oklada.cs",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Models\\Oklada.cs",
+              "RelativeDocumentMoniker": "Kladionica\\Models\\Oklada.cs",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Models\\Oklada.cs",
+              "RelativeToolTip": "Kladionica\\Models\\Oklada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T11:45:23.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KorisnikController.cs",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Controllers\\KorisnikController.cs",
+              "RelativeDocumentMoniker": "Kladionica\\Controllers\\KorisnikController.cs",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Controllers\\KorisnikController.cs",
+              "RelativeToolTip": "Kladionica\\Controllers\\KorisnikController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T11:39:02.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Korisnik\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kladionica\\Views\\Korisnik\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Korisnik\\Index.cshtml",
+              "RelativeToolTip": "Kladionica\\Views\\Korisnik\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T11:38:02.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Oklada\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kladionica\\Views\\Oklada\\Index.cshtml",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Oklada\\Index.cshtml",
+              "RelativeToolTip": "Kladionica\\Views\\Oklada\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T08:40:15.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Oklada\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Kladionica\\Views\\Oklada\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Oklada\\Edit.cshtml",
+              "RelativeToolTip": "Kladionica\\Views\\Oklada\\Edit.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAC0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T08:43:22.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Oklada\\Create.cshtml",
+              "RelativeDocumentMoniker": "Kladionica\\Views\\Oklada\\Create.cshtml",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Views\\Oklada\\Create.cshtml",
+              "RelativeToolTip": "Kladionica\\Views\\Oklada\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T08:43:17.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OkladaController.cs",
+              "DocumentMoniker": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Controllers\\OkladaController.cs",
+              "RelativeDocumentMoniker": "Kladionica\\Controllers\\OkladaController.cs",
+              "ToolTip": "C:\\Users\\bartu\\source\\repos\\Kladionica\\Kladionica\\Controllers\\OkladaController.cs",
+              "RelativeToolTip": "Kladionica\\Controllers\\OkladaController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T08:24:22.702Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

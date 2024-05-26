@@ -1,0 +1,128 @@
+﻿@model Kladionica.Models.OkladaViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create Oklada</h1>
+
+<h4>Bet</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="oklada.Ulog" class="control-label"></label>
+                <input asp-for="oklada.Ulog" class="form-control" />
+                <span asp-validation-for="oklada.Ulog" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="oklada.TipOklade" class="control-label"></label>
+                <input asp-for="oklada.TipOklade" class="form-control" />
+                <span asp-validation-for="oklada.TipOklade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="oklada.Datum" class="control-label"></label>
+                <input asp-for="oklada.Datum" class="form-control" />
+                <span asp-validation-for="oklada.Datum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="oklada.ID_korisnik" class="control-label">User</label>
+                <select asp-for="oklada.ID_korisnik" class="form-control" asp-items="Model.Korisnici"></select>
+                <span asp-validation-for="oklada.ID_korisnik" class="text-danger"></span>
+            </div>
+
+            <h4>Utakmice</h4>
+            <table class="table table-bordered" id="utakmiceTable">
+                <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th>Tim1</th>
+                        <th>Tim2</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="utakmice-table-body">
+                    @for (int i = 0; i < Model.Utakmice.Count; i++)
+                    {
+                        <tr>
+                            <td>
+                                <input asp-for="Utakmice[i].Datum" class="form-control" type="date" required />
+                                <span asp-validation-for="Utakmice[i].Datum" class="text-danger"></span>
+                            </td>
+                            <td>
+                                <input asp-for="Utakmice[i].Tim1" class="form-control" required />
+                                <span asp-validation-for="Utakmice[i].Tim1" class="text-danger"></span>
+                            </td>
+                            <td>
+                                <input asp-for="Utakmice[i].Tim2" class="form-control" required />
+                                <span asp-validation-for="Utakmice[i].Tim2" class="text-danger"></span>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger remove-button" onclick="removeUtakmica(this)">Remove</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-success" onclick="addUtakmica()">Add Utakmica</button>
+            <div class="form-group mt-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function updateRemoveButtons() {
+            var rows = $('#utakmice-table-body tr');
+            if (rows.length === 1) {
+                rows.find('.remove-button').prop('disabled', true);
+            } else {
+                rows.find('.remove-button').prop('disabled', false);
+            }
+        }
+
+        function addUtakmica() {
+            var index = $('#utakmice-table-body tr').length;
+            var template = `
+                        <tr>
+                            <td>
+                                <input name="Utakmice[${index}].Datum" class="form-control" type="date" required />
+                                <span class="text-danger"></span>
+                            </td>
+                            <td>
+                                <input type="hidden" name="Utakmice[${index}].ID" value="0" />
+                                <input name="Utakmice[${index}].Tim1" class="form-control" required />
+                                <span class="text-danger"></span>
+                            </td>
+                            <td>
+                                <input name="Utakmice[${index}].Tim2" class="form-control" required />
+                                <span class="text-danger"></span>
+                            </td>
+                            <td>
+                                <button type="button" class="btn btn-danger remove-button" onclick="removeUtakmica(this)">Remove</button>
+                            </td>
+                        </tr>`;
+            $('#utakmice-table-body').append(template);
+            updateRemoveButtons();
+        }
+
+        function removeUtakmica(button) {
+            $(button).closest('tr').remove();
+            updateRemoveButtons();
+        }
+
+        $(document).ready(function () {
+            updateRemoveButtons();
+        });
+    </script>
+}

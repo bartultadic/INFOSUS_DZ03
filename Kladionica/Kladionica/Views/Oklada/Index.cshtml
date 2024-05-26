@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Kladionica.Models.Oklada>
+
+@{
+    ViewData["Title"] = "Oklade";
+}
+
+<h1>Oklade</h1>
+
+<form method="get" asp-action="Index">
+    <div class="form-group">
+        <input type="text" name="searchString" class="form-control" placeholder="Search Oklada" value="@ViewData["CurrentFilter"]" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Ulog)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TipOklade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Datum)
+            </th>
+            <th>
+                Korisnik
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ulog)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipOklade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Datum)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Korisnik.Ime) @Html.DisplayFor(modelItem => item.Korisnik.Prezime)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
